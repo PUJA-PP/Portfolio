@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    color:black;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: burlywood;
+
+}
+img {
+    border-radius: 40%;
+    text-align: center;
+
+
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url("pngegg.png");
+  }
+  #about {
+    background-color:lightblue;
+    color: black;
+    padding: 50px 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+a:hover {
+    color:blue;
+}
+a {
+    color:red;
+    padding: 20px;
+}
+table {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height:100%;
+    width:100%;
+}
+button {
+    color:red;
+}
+button:hover {
+    color:blue;
+}
