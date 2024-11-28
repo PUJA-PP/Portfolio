@@ -4,11 +4,11 @@ h1 {
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: burlywood;
+    background-color:ghostwhite;
 
 }
 img {
-    border-radius: 40%;
+    border-radius: 80%;
     text-align: center;
 
 
@@ -18,14 +18,14 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-image: url("pngegg.png");
+
+    
   }
-  #about {
-    background-color:lightblue;
+  .container1 {
+    background-color:azure;
     color: black;
-    padding: 50px 20px;
-    position: relative;
-    display: flex;
-    align-items: center;
+    height:100px;
+    width: 1500px;
   }
   
 a:hover {
@@ -47,4 +47,34 @@ button {
 }
 button:hover {
     color:blue;
+}
+.fa-facebook-f {
+    height:50px;
+    width: 50px;
+
+}
+.fa-instagram {
+    height:50px;
+    width:50px;
+
+}
+.fa-whatsapp {
+    height:50px;
+    width: 50px;
+}
+.fa-github {
+    height:50px;
+    width:50px;
+}
+.fa-linkedin {
+    height: 50px;
+    width: 50px;
+}
+.container {
+    place-items: center;
+    border : 1px solid black;
+
+}
+h2 {
+    color :black;
 }
